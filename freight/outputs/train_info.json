@@ -1,0 +1,25 @@
+{
+  "n_train": 47323,
+  "n_outliers_dropped": 677,
+  "linear_coefficients": {
+    "market_index": 0.1439,
+    "quarter_index": 0.0179,
+    "quarter_end_ramp": 0.0457,
+    "log_distance": -0.2568,
+    "log_distance_sq": 0.0097,
+    "weight_10k": 0.0299,
+    "quote_signal": 0.009,
+    "is_flatbed": 0.0792,
+    "is_reefer": 0.121
+  },
+  "top_features": {
+    "pickup_lat": 0.2315,
+    "delivery_lat": 0.2029,
+    "delivery_lon": 0.1092,
+    "pickup_lon": 0.0981,
+    "distance": 0.0627,
+    "quote_signal": 0.0572,
+    "weight": 0.0541,
+    "delta_lat": 0.0476
+  }
+}

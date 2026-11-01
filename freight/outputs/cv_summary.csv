@@ -1,0 +1,15 @@
+,,MAE,MAE,RMSE,RMSE,MAPE,MAPE
+,,mean,std,mean,std,mean,std
+scenario,model,,,,,,
+all_loads,baseline_rpm_table,108.1,27.54,146.87,35.51,4.73,0.99
+all_loads,hybrid_linear_plus_lgbm,78.42,101.17,107.16,130.56,3.81,5.44
+all_loads,lgbm_only,93.47,86.83,131.99,109.69,4.44,4.61
+all_loads,linear_log_rpm,97.43,100.7,130.2,131.81,4.8,5.31
+incl_outlier_labels,baseline_rpm_table,159.74,27.87,635.12,43.08,6.97,0.91
+incl_outlier_labels,hybrid_linear_plus_lgbm,130.38,95.69,634.11,19.94,6.06,5.36
+incl_outlier_labels,lgbm_only,145.19,81.42,637.23,15.77,6.65,4.58
+incl_outlier_labels,linear_log_rpm,149.22,95.28,639.8,23.59,7.05,5.23
+new_cities,baseline_rpm_table,113.58,32.23,153.55,40.14,4.63,1.0
+new_cities,hybrid_linear_plus_lgbm,81.67,95.05,109.19,115.79,3.65,4.72
+new_cities,lgbm_only,94.87,83.01,131.26,98.46,4.18,4.1
+new_cities,linear_log_rpm,97.35,95.39,127.62,116.88,4.45,4.65
